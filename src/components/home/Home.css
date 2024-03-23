@@ -1,0 +1,19 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../components/home/image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home h1 {
+    font-size: 60px;
+    text-shadow: 1px 1px white;
+}
+
+.home-btn {
+    background-color: darkslateblue;
+    color: white !important;
+    border-radius: 7px;
+    font-weight: bold;
+}

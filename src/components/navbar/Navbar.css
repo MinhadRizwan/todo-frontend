@@ -1,0 +1,26 @@
+/* .user-png{
+    font-size: 30px;
+    font-weight: bold;
+} */
+.navbar{
+    background-color: darkslateblue;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+.navbar-brand{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn-nav{
+    background-color: white;
+    color: black !important;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.btn-nav:hover{
+    color: white !important;
+    background-color: black;
+}

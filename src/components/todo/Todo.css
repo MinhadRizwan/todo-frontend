@@ -1,0 +1,111 @@
+.todo{
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    position: relative;
+}
+.todo-inputs{
+    border: none;
+    outline: none;
+}
+.todo-inputs-div{
+    box-shadow: 0px 5px 15px rgb(68, 68, 68);
+    border-radius: 10px;
+}
+#textarea{
+    display: none;
+    border-radius: 10px;
+}
+.todo-card{
+    border: 2px solid black;
+}
+.todo-card-p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.card-icon{
+    font-size: 18px;
+}
+.del-icon{
+    color: red;
+}
+.card-icon-head{
+    cursor: pointer;
+    border-radius: 5px;
+}
+.card-icon-head:hover{
+    box-shadow: 0px 5px 15px rgb(68, 68, 68);
+    color: white;
+    background-color: black;
+}
+.todo-update{
+    background-color: rgb(100, 120, 177);
+    border-radius: 10px;
+    color: black;
+    width: 60%;
+    height: 70vh;
+    position: absolute;
+    position: fixed;
+    top: 150px;
+    left: 350px;
+    display: none;
+}
+.update{
+    height: 100%;
+}
+
+
+/* .todo {
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    position: relative;
+  }
+  .todo-inputs {
+    border: none;
+    outline: none;
+  }
+  
+  .todo-inputs-div {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #textarea {
+    display: none;
+  }
+  .todo-card {
+    border: 1px solid black;
+  }
+  .todo-card-p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .card-icons {
+    font-size: 18px;
+  }
+  .del {
+    color: rgba(240, 0, 0, 0.87);
+  }
+  .card-icon-head {
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .card-icon-head:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .todo-update {
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    background-color: blanchedalmond;
+    display: none;
+  }
+  
+  .update {
+    height: 100%;
+  } */
